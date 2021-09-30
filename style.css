@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 139, 0.452);
+}
+#welcome-window{
+    padding: 100px;
+}
+.login-area{
+    max-width: 70%;
+    max-height: 60vh;
+    margin: 50px auto;
+    padding: 5rem;
+    box-shadow: 5px 5px 20px black;
+}
+#welcome-window h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+#transaction-area{
+    display: none;
+    color: white;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 139, 0.452);
+    padding: 50px;
+}
+#transaction-area h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.wrapper{
+    margin-top: 35px;
+}
+.colum{
+    padding: 30px;
+    border-radius: 10px;
+}
+.deposit{
+    background-color: blue;
+}
+.withdraw{
+    background-color: rgb(240, 133, 91);
+}
+.balance{
+    background-color: orange;
+}
+.transaction{
+    background-color: white;
+    border-radius: 10px;
+    padding: 3rem;
+    box-shadow: 10px 10px 20px black;
+    min-height: 30vh;
+}
+.transaction h3{
+    color: black;
+}
+.row{
+    margin-top: 5rem;
+}
